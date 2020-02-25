@@ -23,8 +23,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.hyx.hyx",
+      "versionCode": 1
+    },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.hyx.hyx",
+      "buildNumber": "1.0.0"
     }
   }
 }

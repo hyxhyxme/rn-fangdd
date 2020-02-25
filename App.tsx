@@ -1,9 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Home from './pages/home/Home'
+import Index from './pages/Index/Index'
 export default function App() {
   return (
-    <Home></Home>
+    <Index></Index>
   );
 }
 

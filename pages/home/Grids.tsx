@@ -42,7 +42,7 @@ export default class Grids extends Component {
                 <Grid
                     data={data}
                     columnNum={4}
-                    onPress={(_el, index) => alert(index)}
+                    onPress={(_el, index) => alert('别点，还没有')}
                     itemStyle={{ height: 100, backgroundColor: '#ffffff' }}
                     hasLine={false}
                 />
